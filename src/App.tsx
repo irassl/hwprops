@@ -10,10 +10,12 @@ function App() {
     <div>
       <PageTitile title={'This is App component'} />
 
-      <Accordion titleValue={"Menu"} />
+      <Accordion titleValue={"Menu"} collapsed={false} />
       <Raiting value={0} />
+      <Raiting value={1} />
       <Raiting value={2} />
       <Raiting value={3} />
+      <Raiting value={4} />
     </div>
   );
 }
